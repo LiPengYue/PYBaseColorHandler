@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PYBaseColorHandler_Example' do
+  pod 'PYBaseColorHandler', :path => '../'
+
+  target 'PYBaseColorHandler_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
