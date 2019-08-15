@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PYBaseColorHandler'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '颜色工具类：获取color的RGBA，根据十六进制的数字、字符串创建Color'
 
   s.description      = <<-DESC
